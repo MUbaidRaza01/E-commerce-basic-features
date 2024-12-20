@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 20px;
+}
+#search-container {
+    margin-bottom: 20px;
+}
+#search-input {
+    padding: 8px;
+    width: 200px;
+}
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.product-card {
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+}
+.product-card img {
+    width: 100%;
+    height:25`0px;
+    object-fit: cover;
+    background-position: contain;
+    background-size: contain;
+}
+.delete-btn {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.no-products {
+    font-size: 20px;
+    color: red;
+}
